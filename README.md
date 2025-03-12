@@ -172,3 +172,103 @@ We extend our gratitude to:
 **[Download Full Documentation Here](#)**
 
 **[Watch Presentation Video Here](#)**
+
+
+
+# Network Design & Configuration
+
+## 📌 Overview
+This project demonstrates a structured network topology designed using **Cisco Packet Tracer**. The network includes various interconnected devices, each assigned a specific role to ensure seamless communication and efficient management.
+
+### 🖥️ Network Components
+- **Router (1841 R1):** Acts as the central hub for managing traffic.
+- **Switch (Cisco 2960):** Distributes connectivity to different segments.
+- **Access Points (Cisco 3702i):** Provide wireless connectivity to different departments.
+- **Wireless LAN Controller (WLC-3504):** Centralized management of wireless devices.
+- **Servers:** DHCP, DNS, and WEB servers handling key network services.
+- **End-user Devices:** PCs and laptops connected via wired and wireless networks.
+
+🔗 **Network Diagram:** [View Packet Tracer File](https://drive.google.com/file/d/1B_DEPuYSv7FYABG7J9TB13ulQaFx86Ij/view?usp=drive_link)
+
+---
+
+## 🏗️ Network Components & IP Configuration
+| **Component** | **Device Name** | **IP Address** | **Function** |
+|--------------|--------------|----------------|--------------|
+| **Router** | 1841 R1 | 192.188.1.6 | Central traffic management |
+| **DHCP Server** | Server-PT | 192.188.1.1 | Assigns dynamic IPs |
+| **DNS Server** | Server-PT | 192.188.1.3 | Resolves domain names |
+| **WEB Server** | Server-PT | 192.188.1.4 | Hosts web applications |
+| **WLC** | WLC-3504 | 192.188.1.5 | Manages wireless networks |
+| **PC (Management)** | PC-PT | 192.188.1.7 | Connected via VLAN |
+| **Wireless APs** | Various | Dynamic | Provides wireless access |
+
+🔗 **Full Configuration File:** [View Configuration](#)
+
+---
+
+## 🌐 Network Functionalities & Services
+### 1️⃣ **DHCP Service**
+- **Server IP:** `192.188.1.1`
+- **IP Pool:** `192.188.1.10 - 192.188.1.50`
+- **Default Gateway:** `192.188.1.6`
+
+### 2️⃣ **DNS Service**
+- **Server IP:** `192.188.1.3`
+- **Domain:** `company.local`
+- **Example Mapping:** `www.company.local → 192.188.1.4`
+
+### 3️⃣ **WEB Server**
+- **Server IP:** `192.188.1.4`
+- **Services:** Internal web applications
+
+🔗 **Server Configuration File:** [View Setup](#)
+
+---
+
+## 🔒 VLAN Configuration & Security
+### 🔹 VLAN Segmentation
+| **VLAN** | **Department** | **IP Range** |
+|---------|--------------|-------------|
+| VLAN 10 | IT Department | 192.188.1.50 - 192.188.1.60 |
+| VLAN 20 | Management | 192.188.1.60 - 192.188.1.70 |
+| VLAN 30 | Marketing | 192.188.1.70 - 192.188.1.80 |
+
+✅ **Security Measures:**
+- WPA3 enabled for wireless security.
+- ACLs to restrict unauthorized access.
+
+🔗 **VLAN Configuration Script:** [View VLAN Setup](#)
+
+---
+
+## 🛠️ Troubleshooting & Recommendations
+### 🔍 **Common Issues & Solutions**
+#### 🔹 **Connectivity Issues**
+- Run `ping <destination IP>` to verify device reachability.
+- Check DHCP assignments using `ipconfig /all`.
+
+#### 🔹 **DNS Resolution Issues**
+- Use `nslookup <domain-name>` to test name resolution.
+- Ensure the correct DNS server is configured.
+
+#### 🔹 **Wireless Connectivity Problems**
+- Verify AP configurations via WLC.
+- Check for interference or overlapping channels.
+
+🔗 **Troubleshooting Guide:** [View Full Guide](#)
+
+---
+
+## 🚀 Conclusion & Future Enhancements
+The network is well-structured for scalability and efficiency. Future improvements include:
+✅ Adding redundancy with backup routers and switches.
+✅ Upgrading to WPA3 for enhanced wireless security.
+✅ Implementing SNMP for real-time network monitoring.
+
+---
+📌 **Repository Link:** [GitHub Repo](#)
+
+🔗 **Packet Tracer File:** [Download Here](#)
+
+
