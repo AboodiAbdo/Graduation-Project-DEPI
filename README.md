@@ -192,12 +192,64 @@ The network is well-structured for scalability and efficiency. Future improvemen
 - **Operating System:** Windows Server 2019
 - **Simulation Software:** Cisco Packet Tracer
 
-### Steps Taken
-1. Designing the network topology
-2. Configuring network devices
-3. Setting up Windows Server for domain management
-4. Implementing security policies
-5. Testing and troubleshooting
+# 🚀 **Windows Server 2025 - Installation & Configuration Guide**
+
+Welcome to the ultimate guide for setting up **Windows Server 2025**! Follow the steps below to install and configure your server efficiently. 🛠️
+
+---
+
+## 📌 **Prerequisites**
+Before starting, make sure you have:
+- ✅ A system that meets the **minimum hardware requirements**.
+- ✅ A bootable USB or ISO file of **Windows Server 2025**.
+- ✅ Internet connection for downloading necessary updates and drivers.
+
+---
+
+## 🏗 **Step 1: Download Windows Server 2025**
+🔗 Official Microsoft Download: [Windows Server 2025 ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server)
+
+---
+
+## 💾 **Step 2: Create Bootable USB**
+Use tools like **Rufus** or **Windows Media Creation Tool** to create a bootable USB drive.
+
+🔗 Download Rufus: [Rufus Official Website](https://rufus.ie/)
+
+### Steps:
+1. Insert a **USB drive (8GB or more)**.
+2. Open **Rufus**, select the downloaded **ISO file**.
+3. Click **Start** and wait for the process to complete.
+
+---
+
+## 🔥 **Step 3: Install Windows Server 2025**
+1. Boot from the USB drive.
+2. Select **Language, Time, and Keyboard settings**.
+3. Click **Install Now**.
+4. Choose the **Windows Server Edition**.
+5. Follow the on-screen instructions to complete the installation.
+
+---
+
+## ⚙ **Step 4: Initial Configuration**
+After installation, perform the following:
+- **Set up Administrator Account** 👤
+- **Configure Network Settings** 🌐
+- **Enable Remote Desktop Access** 🖥️
+- **Update Windows & Drivers** 🔄
+
+---
+
+## 🔗 **Additional Resources**
+- 📜 **Microsoft Docs**: [Windows Server Documentation](https://learn.microsoft.com/en-us/windows-server/)
+- 📺 **Video Guide**: [YouTube Setup Tutorial](https://www.youtube.com/results?search_query=windows+server+2025+installation)
+- 🛠 **Troubleshooting**: [Microsoft Support](https://support.microsoft.com/)
+
+---
+
+🚀 **You're all set!** Now you have a fully functional **Windows Server 2025**. Need help? Feel free to open an issue on this repository! 🎯
+
 
 ---
 
