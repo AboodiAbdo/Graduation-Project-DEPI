@@ -85,96 +85,6 @@ This project focuses on the design, implementation, and troubleshooting of a sec
 **Include Network Topology Diagram:**  
 *Add a network topology image here (e.g., using Cisco Packet Tracer)*
 
----
-
-## Implementation Details
-
-### Tools and Technologies
-- **Networking Devices:** Cisco Routers and Switches
-- **Operating System:** Windows Server 2019
-- **Simulation Software:** Cisco Packet Tracer
-
-### Steps Taken
-1. Designing the network topology
-2. Configuring network devices
-3. Setting up Windows Server for domain management
-4. Implementing security policies
-5. Testing and troubleshooting
-
----
-
-## Troubleshooting Process
-
-- **Challenges Identified:** Connectivity issues, misconfigurations, and hardware failures
-- **Solutions Implemented:**
-  - Analyzing logs and traffic data
-  - Testing configurations
-  - Replacing faulty hardware
-
----
-
-## Outcomes
-- Successfully designed and implemented a secure network
-- Resolved critical issues and ensured optimal performance
-- Enhanced practical understanding of network setup and troubleshooting
-
----
-
-## Future Enhancements
-- Integrating advanced monitoring tools
-- Expanding network scalability
-- Enhancing fault tolerance
-
----
-
-## Project Files
-
-| File Name                  | Description                          |
-|----------------------------|--------------------------------------|
-| `Documentation.pdf`       | Detailed project documentation       |
-| `Proposal.pdf`            | Initial project proposal             |
-| `Presentation.pptx`       | Final presentation slides            |
-| `Network_Topology.pkt`    | Cisco Packet Tracer file             |
-| `Windows_Server_Config`   | Configuration files for Windows Server |
-
----
-
-## How to Use This Repository
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/aboodi200/DEPI-Network-Project.git
-   ```
-
-2. Access the project files and review the documentation.
-
-3. Open the Packet Tracer file (`Network_Topology.pkt`) to visualize the network design.
-
-4. Use the `Windows_Server_Config` files to replicate the server setup.
-
----
-
-## References
-- Cisco Networking Academy Materials
-- Microsoft Windows Server Documentation
-- Digital Egypt Pioneers Initiative Resources
-
----
-
-## Acknowledgments
-
-We extend our gratitude to:
-- **DR. Mustafa Salah** for his invaluable guidance and support.
-- The Ministry of Communications for offering this opportunity through the DEPI scholarship.
-
----
-
-**[Download Full Documentation Here](#)**
-
-**[Watch Presentation Video Here](#)**
-
-
-
 # Network Design & Configuration
 
 ## 📌 Overview
@@ -270,5 +180,99 @@ The network is well-structured for scalability and efficiency. Future improvemen
 📌 **Repository Link:** [GitHub Repo](#)
 
 🔗 **Packet Tracer File:** [Download Here](#)
+
+
+
+---
+
+## Implementation Details
+
+### Tools and Technologies
+- **Networking Devices:** Cisco Routers and Switches
+- **Operating System:** Windows Server 2019
+- **Simulation Software:** Cisco Packet Tracer
+
+### Steps Taken
+1. Designing the network topology
+2. Configuring network devices
+3. Setting up Windows Server for domain management
+4. Implementing security policies
+5. Testing and troubleshooting
+
+---
+
+## Troubleshooting Process
+
+- **Challenges Identified:** Connectivity issues, misconfigurations, and hardware failures
+- **Solutions Implemented:**
+  - Analyzing logs and traffic data
+  - Testing configurations
+  - Replacing faulty hardware
+
+---
+
+## Outcomes
+- Successfully designed and implemented a secure network
+- Resolved critical issues and ensured optimal performance
+- Enhanced practical understanding of network setup and troubleshooting
+
+---
+
+## Future Enhancements
+- Integrating advanced monitoring tools
+- Expanding network scalability
+- Enhancing fault tolerance
+
+---
+
+## Project Files
+
+| File Name                  | Description                          |
+|----------------------------|--------------------------------------|
+| `Documentation.pdf`       | Detailed project documentation       |
+| `Proposal.pdf`            | Initial project proposal             |
+| `Presentation.pptx`       | Final presentation slides            |
+| `Network_Topology.pkt`    | Cisco Packet Tracer file             |
+| `Windows_Server_Config`   | Configuration files for Windows Server |
+
+---
+
+## How to Use This Repository
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aboodi200/DEPI-Network-Project.git
+   ```
+
+2. Access the project files and review the documentation.
+
+3. Open the Packet Tracer file (`Network_Topology.pkt`) to visualize the network design.
+
+4. Use the `Windows_Server_Config` files to replicate the server setup.
+
+---
+
+## References
+- Cisco Networking Academy Materials
+- Microsoft Windows Server Documentation
+- Digital Egypt Pioneers Initiative Resources
+
+---
+
+## Acknowledgments
+
+We extend our gratitude to:
+- **DR. Mustafa Salah** for his invaluable guidance and support.
+- The Ministry of Communications for offering this opportunity through the DEPI scholarship.
+
+---
+
+**[Download Full Documentation Here](#)**
+
+**[Watch Presentation Video Here](#)**
+
+
+
+
 
 
